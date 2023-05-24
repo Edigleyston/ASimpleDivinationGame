@@ -7,8 +7,8 @@ A Simple Divination Games
 <p align="center">A divination game. Guess the number I'm thinking of</p>
 
 <div>
-  <img align="center" src="https://imgur.com/mK7adxI" height="425">
-  <img align="acenter" src="https://imgur.com/ZU5BLCF" height="425">
+  <img align="center" src="https://i.imgur.com/mK7adxI.png" height="425">
+  <img align="acenter" src="https://imgur.com/ZU5BLCF.png" height="425">
 </div>
 
 ## Features
