@@ -8,11 +8,9 @@ A Simple Divination Games
 
 <div>
   <img align="center" src="https://i.imgur.com/mK7adxI.png" height="425">
+  <br>
+  <p align="center">If hit the number
   <img align="acenter" src="https://imgur.com/ZU5BLCF.png" height="425">
 </div>
-
-## Features
-[//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
 
 - ⚛️ **Javascript** — A programming Language
