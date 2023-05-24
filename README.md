@@ -14,6 +14,6 @@ A Simple Divination Games
  <img align="acenter" src="https://imgur.com/ZU5BLCF.png" height="425">
 </div>
 <p align="center">See the code on Codepen: 
-  <span><a href="https://codepen.io/Edigleyston/pen/dygrPXY">Clique aqui!</a></span></p>
+  <span><a href="https://codepen.io/Edigleyston/pen/dygrPXY">Click here!</a></span></p>
 
 - ⚛️ **Javascript** — A programming Language
