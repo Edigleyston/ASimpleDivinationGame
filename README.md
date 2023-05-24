@@ -1,15 +1,15 @@
 
-h1 align="center">
+<h1 align="center">
 <br>
 A Simple Divination Games
 </h1>
 
 <p align="center">A divination game. Guess the number I'm thinking of</p>
 
-
-  <img src="https://imgur.com/mK7adxI">
-  <img src="https://imgur.com/ZU5BLCF">
-
+<div>
+  <img align="center" src="https://imgur.com/mK7adxI" height="425">
+  <img align="acenter" src="https://imgur.com/ZU5BLCF" height="425">
+</div>
 
 ## Features
 [//]: # (Add the features of your project here:)
