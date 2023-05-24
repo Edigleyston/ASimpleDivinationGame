@@ -1,41 +1,35 @@
-/*
------Jogo de Advinhação-----
-Apresente a mensagem ao usuário:
-"Advinhe o número que estou pensando. Está entre 0 e 10"
-
-Crie uma lógica para gerar um número aleatório
-e verificar se o número digitado é o mesmo que o aleatório gerado
-pelo sistema.
-
-Enquanto o usuário não adivinhar o número, mostrar a mensagem:
-"Erro, tente novamente: "
-
-Caso o usuário acerte o número, apresentar a mensagem:
-"Parabéns! Você advinhou o número em x tentativas""
-
-Substitua o "x" da mensagem, pelo número de tentativas.
-*/
-
-let result = prompt("Advinhe o número que estou pensando. Está entre 0 e 10")
-/*
-•Math é um conjunto de funcionalidades matemáticas
-•Math.random gera um número aleatório entre 0 e 1, 
-não incluso o 1 nem o 0
-•Para arredondar para o numero mais próximo usa funcionalidade
-.round
-*/
-const randomNumber = Math.round(Math.random() * 10)//irá imprimir um numero inteiro
-const match = Number(result) == randomNumber
-
-//numero de tentativas
+//variables
 let xAttempts = 1
+const screen1 = document.querySelector(".screen1")
+const screen2 = document.querySelector(".screen2")
 
-while(Number(result) != randomNumber){
-    if(xAttempts == 1){
-        result = prompt("Errou, tente novamente: ")
-       }else{
-        result = prompt("Errou denovo, tente novamente: ")
+const btnTry = document.querySelector('#btnTry')
+const btnReset = document.querySelector('#btnReset')
+        
+//callback function
+function handleClick(event){
+    event.preventDefault()
+
+    const inputNumber = document.querySelector("#inputNumber")
+
+    
+    if(inputNumber.value == randomNumber){
+        screen1.classList.add("hide")
+        screen2.classList.remove("hide")
+        
+        document.querySelector(".screen2 h2").innerText = `Parabéns, voce acertou em ${xAttempts} tentativas`
+        
     }
-        xAttempts++ //sempre q repetir, adiciona 1
+    xAttempts++
+    inputNumber.value= ""
 }
-alert(`Parabéns! Você advinhou o número em ${xAttempts} tentativas`)
+
+
+//events
+btnTry.addEventListener('click', handleClick)
+btnReset.addEventListener('click', function(){
+    xAttempts = 1
+    screen1.classList.remove('hide')
+    screen2.classList.add('hide')
+
+})
