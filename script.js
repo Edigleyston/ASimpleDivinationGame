@@ -5,7 +5,9 @@ const screen2 = document.querySelector(".screen2")
 
 const btnTry = document.querySelector('#btnTry')
 const btnReset = document.querySelector('#btnReset')
-        
+
+const randomNumber = Math.round(Math.random() * 10)
+
 //callback function
 function handleClick(event){
     event.preventDefault()
