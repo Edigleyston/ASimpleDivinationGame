@@ -11,7 +11,7 @@ A Simple Divination Games
   <br>
   <p align="center">If hit the number
   <br>
-  <img align="acenter" src="https://imgur.com/ZU5BLCF.png" height="425">
+ <img align="acenter" src="https://imgur.com/ZU5BLCF.png" height="425">
 </div>
 
 - ⚛️ **Javascript** — A programming Language
